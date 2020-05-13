@@ -1,0 +1,28 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:62036/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "cw4": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/students",
+      "environmentVariables": {
+        "Secret_Key": "GplKhtKPqOPXdsZmMG9nO8iB6zv7XX",
+        "PASSWORD_SECRET": "16bVP65fvvHpXCfN9YhJWe0PlEnpIv",
+        "DB_SOURCE": "Data Source=db-mssql;Initial Catalog=s19434;Integrated Security=True",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "sqlDebugging": true,
+      "applicationUrl": "http://localhost:51341"
+    },
+    "cw10": {
+      "commandName": "Executable"
+    }
+  }
+}
